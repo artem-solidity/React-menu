@@ -1,0 +1,15 @@
+.dish-name {
+    width: 60%;
+}
+
+.dish-price {
+    width: 20%;
+}
+
+.dish-button {
+    width: 20%;
+}
+
+.add-to-order-button {
+    width: 100%;
+}
