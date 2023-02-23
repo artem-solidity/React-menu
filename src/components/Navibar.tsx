@@ -5,7 +5,6 @@ import {
   CloseButton,
   Flex,
   HStack,
-  VStack,
   Icon,
   useColorModeValue,
   Link,
@@ -19,12 +18,8 @@ import {
 } from '@chakra-ui/react';
 import {
   FiMenu,
-  FiBell,
-  FiChevronRight,
-  FiMaximize,
-  FiKey
+  FiChevronRight
 } from 'react-icons/fi';
-
 import { BiDish } from 'react-icons/bi';
 import { MdOutlineFoodBank } from 'react-icons/md';
 
@@ -32,9 +27,7 @@ import { IconType } from 'react-icons';
 
 import NyanCat from '../assets/images/nyan-cat.gif';
 
-
 import Swal from 'sweetalert2';
-import { Button } from 'react-bootstrap';
 
 
 interface LinkItemProps {

@@ -2,7 +2,8 @@ import { useDisclosure } from '@chakra-ui/react';
 import { useState } from 'react';
 import SidebarWithHeader from './components/Navibar'
 import OrderModal from './components/OrderModal';
-import MenuItems, { Dish } from './menuItems/AllDishes'
+import MenuItems from './menuItems/AllDishes'
+import { Dish } from './menuItems/FullMenu';
 
 function App() {
 

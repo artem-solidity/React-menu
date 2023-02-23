@@ -1,22 +1,20 @@
 import { Button, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, useDisclosure, Text, Input } from "@chakra-ui/react";
 import {
   Table,
-  Thead,
   Tbody,
   Tfoot,
   Tr,
   Th,
   Td,
-  TableCaption,
   TableContainer,
 } from '@chakra-ui/react'
 import { useEffect, useState } from "react";
-import { Dish } from "../menuItems/AllDishes";
 
 import { AiOutlineLock, AiOutlineUnlock } from 'react-icons/ai'
 
-import {QRCodeCanvas, QRCodeSVG} from 'qrcode.react';
+import {QRCodeCanvas} from 'qrcode.react';
 import './OrderModal.css';
+import { Dish } from "../menuItems/FullMenu";
 
 export default function OrderModal({ orderedItems, isOpen, onOpen, onClose, addToOrder }: {
   orderedItems: Dish[],
