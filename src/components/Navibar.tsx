@@ -30,6 +30,7 @@ import { MdOutlineFoodBank } from 'react-icons/md';
 
 import { IconType } from 'react-icons';
 
+import NyanCat from '../assets/images/nyan-cat.gif';
 
 
 import Swal from 'sweetalert2';
@@ -186,7 +187,7 @@ const MobileNav = ({ onOpen, displayOrder, ...rest }: MobileProps) => {
         padding: '3em',
         backdrop: `
         rgba(0,0,123,0.4)
-        url("./public/nyan-cat.gif")
+        url(${NyanCat})
         left top
         no-repeat
       `
